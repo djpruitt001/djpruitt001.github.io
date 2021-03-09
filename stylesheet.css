@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(236, 223, 185);
+  }
+  h1 {
+    color: rgb(133, 205, 216);
+  }
+  p {
+    color: rgb(9, 7, 114);
+    font-size: large
+    style="font-family:courier;"
+  }
+  span {
+    color: rgba(255, 0, 0, 0.575);
+    font-style: inherit; border-bottom: lightcoral;
+
+}
+ol {
+    background-color: rgb(220, 222, 228);
+    border-bottom: black;
+}
