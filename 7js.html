@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Homework 7 JS attempt</title>
+        <script src="7js.js"></script>
+    </head>
+    <body>
+        <h1>Homework 7 JS Attempt</h1>
+        <form>
+            <button onclick="myFunction()">Do not press</button>
+
+            <script>
+            function myFunction() {
+              alert("What have you done?!");
+            }
+            </script>
+        </form>
+
+        <div id="if">
+            <h2>Conditional execution</h2>
+            <script type="text/javascript">
+                var age = prompt("Please enter your age");
+                if(age>=18)
+                document.write("You are an adult <br />");
+                if(age<18)
+                document.write("You are NOT an adult <br />");
+            </script>
+            </p>
+        </div>
+
+        <div id="loop">
+            <h2>Looping</h2>
+            <h3>Definite loop</h3>
+            <sup><input id="max_power" class="power" type="number" min="1" max="100" step="1" value="8"/></sup>:
+                <input type="button" value="Update table" onclick="updatePowersTable(this);" /></p>
+            <table id="power_table"></table>
+
+            <h3>Indefinite loop</h3>
+                <input id="power_threshold" type="number" min="1" max="9007199254740991" step="1" value="100"/>:
+                <input type="button" value="Update table" onclick="updateThresholdTable(this);" /></p>
+            <table id="threshold_table"></table>
+
+        </div>
+    </body>
+</html>
